@@ -1,0 +1,177 @@
+﻿@using Source.Model.DbModels.QRCode;
+@{
+    Layout = null;
+    var entity = ViewData["entity"] as UserAccount;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/Css/bootstrap.min.css?v=3.3.6" rel="stylesheet">
+    <link href="~/Content/Css/font-awesome.css?v=4.4.0" rel="stylesheet">
+    <link href="~/Content/Css/plugins/bootstrap-table/bootstrap-table.min.css" rel="stylesheet">
+    <link href="~/Content/Css/animate.css" rel="stylesheet">
+    <link href="~/Content/Css/style.css?v=4.1.0" rel="stylesheet">
+    <link href="~/Content/common.css" rel="stylesheet">
+    <title>edit</title>
+    <style>
+    </style>
+</head>
+<body>
+    <div class="wrapper wrapper-content animated fadeInRight">
+        <div class="col-xs-11">
+            <form class="form-horizontal m-t" id="mainForm">
+                <input type="hidden" id="Id" name="Id" value="@entity.Id" />
+
+
+
+
+                <div class="form-group">
+                    <label class="col-xs-3 control-label">用户名称：</label>
+                    <div class="col-xs-9">
+                        <input id="UserName" name="UserName" value="@entity.UserName" type="text" class="form-control">
+                        @*<span class="help-block m-b-none"><i class="fa fa-info-circle"></i>请填写用户名称</span>*@
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-xs-3 control-label">所属行业：</label>
+                    <div class="col-xs-9">
+                        <input id="Position" name="Position" value="@entity.Position" type="text" class="form-control">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-xs-3 control-label">电话：</label>
+                    <div class="col-xs-9">
+                        <input id="Phone" name="Phone" value="@entity.Phone" type="text" class="form-control">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-xs-3 control-label">状态：</label>
+                    <div class="col-xs-9">
+                        <select class="form-control m-b-none" name="UserStare" id="UserStare">
+
+                            <option value='1' @(entity.UserStare == 1 ? "Selected" : "")>申请</option>
+                            <option value='2' @(entity.UserStare == 2 ? "Selected" : "")>通过</option>
+                            <option value='3' @(entity.UserStare == 3 ? "Selected" : "")>拒绝</option>
+                            <option value='4' @(entity.UserStare == 4 ? "Selected" : "")>禁用</option>
+                        </select>
+
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-xs-3 control-label">用户标识：</label>
+                    <div class="col-xs-9">
+                        <input id="GuIdNumber" name="GuIdNumber" value="@entity.GuIdNumber" type="text" class="form-control" readonly="readonly">
+                        @*<span class="help-block m-b-none"><i class="fa fa-info-circle"></i>请填写登录密码</span>*@
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-xs-3 control-label">协约密码：</label>
+                    <div class="col-xs-9">
+                        <input id="Password" name="Password" value="@entity.Password" type="text" class="form-control">
+                        @*<span class="help-block m-b-none"><i class="fa fa-info-circle"></i>请填写登录密码</span>*@
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-xs-3 control-label">说明：</label>
+                    <div class="col-xs-9">
+                        <textarea name="Explain" id="Explain" class="form-control">@entity.Explain</textarea>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-xs-12">
+                        <div class="pull-right">
+                            <button id="submit" class="btn btn-primary pull-center" type="submit">
+                                <i class="fa fa-check"></i>&nbsp;提&nbsp;交
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </form>
+        </div>
+    </div>
+    <!-- 全局js -->
+    <script type="text/javascript" src="~/Scripts/jquery.min.js?v=2.1.4"></script>
+    <script type="text/javascript" src="~/Scripts/bootstrap.min.js?v=3.3.6"></script>
+
+    <!-- jQuery Validation plugin javascript-->
+    <script type="text/javascript" src="~/Scripts/plugins/validate/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/plugins/validate/messages_zh.min.js"></script>
+    @*<script type="text/javascript" src="~/Scripts/Extensions/ExtValidator.js"></script>*@
+
+    <!-- layer javascript -->
+    <script type="text/javascript" src="~/Scripts/plugins/layer/layer.min.js"></script>
+    <script>
+
+
+
+        $(function () {
+            // validate signup form on keyup and submit
+            var icon = "<i class='fa fa-times-circle'></i> ";
+            var validator = $("#mainForm").validate({
+                rules: {
+                    UserName: {
+                        required: true,
+                        minlength: 2
+                    }
+                },
+                messages: {
+                    UserName: {
+                        required: icon + "请输入您的用户名",
+                        minlength: icon + "用户名必须两个字符以上"
+                    }
+                },
+                submitHandler: function (form) {
+                    //alert(JSON.stringify($('#mainForm').serialize()));
+                    //return;
+                    //进行ajax传值
+                    $.ajax({
+                        url: "/UserAccount/EditAsync",
+                        type: "post",
+                        dataType: "json",
+                        data: GetJsonData() ,
+                        success: function (data) {
+                            //Info,Success,Warning,Error
+                            var type = data.type;
+                            if (type == 1) {
+                                layer.msg(data.content, { icon: 6, time: 2000 },
+                                    function () {
+                                        var index = parent.layer.getFrameIndex(window.name);
+                                        parent.layer.close(index);
+                                    });
+
+                            } else {
+                                layer.msg(data.content, { icon: 5, time: 2000 });
+                            }
+                        }
+                    });
+                }
+            });
+        });
+
+        function GetJsonData() {
+            var json = {
+                "Id": $("#Id").val(),
+                "UserName": $("#UserName").val(),
+                "Position": $("#Position").val(),
+                "Phone": $("#Phone").val(),
+                "UserStare": $("#UserStare").val(),
+                "Explain": $("#Explain").val(),
+                "Password": $("#Password").val(),
+            };
+            return json;
+        }
+    </script>
+</body>
+</html>

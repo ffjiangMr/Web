@@ -1,0 +1,83 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>二维码工厂管理系统 - 登录</title>
+    <meta name="keywords" content="二维码工厂管理系统">
+    <meta name="description" content="二维码工厂管理系统">
+    <link href="~/Content/Css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/Content/Css/font-awesome.css?v=4.4.0" rel="stylesheet">
+    <link href="~/Content/Style/animate.css" rel="stylesheet">
+    <link href="~/Content/Style/style.css" rel="stylesheet">
+    <link href="~/Content/Style/login.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <meta http-equiv="refresh" content="0;ie.html" /> 
+    <![endif]-->
+    <script>
+        if (window.top !== window.self) {
+            window.top.location = window.location;
+        }
+    </script>
+</head>
+<body class="signin"   onkeydown="KeyDown()">
+    <div class="signinpanel">
+        <div class="row">
+            <div class="col-sm-7">
+                <form style="padding-top: 35px;height: 312px;">
+                    <div class="signin-info" style="margin-top: -30px;">
+                        <div class="logopanel m-b">
+                            <h1>[二维码工厂管理系统]</h1>
+                        </div>
+                        <div class="m-b"></div>
+                        <h4>欢迎使用 <strong>二维码工厂管理系统</strong></h4>
+                        <ul class="m-b">
+                            <li><i class="fa fa-arrow-circle-o-right m-r-xs"></i> -------------------------------------------</li>
+                            <li><i class="fa fa-arrow-circle-o-right m-r-xs"></i> -------------------------------------------</li>
+                            <li><i class="fa fa-arrow-circle-o-right m-r-xs"></i> -------------------------------------------</li>
+                            <li><i class="fa fa-arrow-circle-o-right m-r-xs"></i> -------------------------------------------</li>
+                            @*<li><i class="fa fa-arrow-circle-o-right m-r-xs"></i> 优势五</li>*@
+                        </ul>
+                        @*<strong>还没有账号？ <a href="#">期待您的加入&raquo;</a></strong>*@
+                    </div>
+                    </form>
+</div>
+            <div class="col-sm-5">
+                <form>
+                    <h4 class="no-margins login-h4">登&nbsp;&nbsp;录</h4>
+                    <p class="m-t-md">登录二维码工厂管理系统</p>
+                    <input id="loginName" type="text" class="form-control uname" placeholder="用户名" />
+                    <input id="passWord" type="password" class="form-control pword m-b" placeholder="密码" />
+                    <br />
+                    <button type="button" id="loginBtn" class="btn btn-success btn-block">登录</button>
+                </form>
+            </div>
+        </div>
+        <div class="signup-footer">
+            <div class="pull-left">
+                &copy; 2017 All Rights Reserved.
+            </div>
+        </div>
+    </div>
+
+    <!-- 全局js -->
+    <script type="text/javascript" src="~/Scripts/jquery.min.js?v=2.1.4"></script>
+    <!-- layer javascript -->
+    <script type="text/javascript" src="~/Scripts/plugins/layer/layer.min.js"></script>
+    <script src="~/ScriptsControllers/Base/Default.js"></script>
+    <script>
+        function KeyDown() {
+            if (event.keyCode == 13) {
+                $("#loginBtn").click();
+            }
+        }
+    </script>
+</body>
+</html>

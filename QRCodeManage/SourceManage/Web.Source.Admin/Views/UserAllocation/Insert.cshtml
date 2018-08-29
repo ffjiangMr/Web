@@ -1,0 +1,167 @@
+﻿@using Source.Model.DbModels.QRCode;
+@{
+    Layout = null;
+    var userlist = ViewData["userlist"] as List<UserAccount>;
+    var snum =  ViewData["StartNumber"].ToString();
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/Css/bootstrap.min.css?v=3.3.6" rel="stylesheet">
+    <link href="~/Content/Css/font-awesome.css?v=4.4.0" rel="stylesheet">
+    <link href="~/Content/Css/plugins/bootstrap-table/bootstrap-table.min.css" rel="stylesheet">
+    <link href="~/Content/Css/animate.css" rel="stylesheet">
+    <link href="~/Content/Css/style.css?v=4.1.0" rel="stylesheet">
+    <link href="~/Content/common.css" rel="stylesheet">
+    <title>edit</title>
+    <style>
+    </style>
+</head>
+<body>
+    <div class="wrapper wrapper-content animated fadeInRight">
+        <div class="col-xs-11">
+            <form class="form-horizontal m-t" id="mainForm">
+                <div class="form-group">
+                    <label class="col-xs-3 control-label">应用账户：</label>
+
+                    <div class="col-xs-9">
+                        <select id="UserAccount" class="form-control">
+                            @foreach (var item in userlist)
+                            {
+                                <option value='@item.Id' )>@item.UserName</option>
+                            }
+
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-xs-3 control-label">开始码：</label>
+                    <div class="col-xs-9">
+                        <input id="StartNumber" name="StartNumber" type="text" class="form-control" value="@snum"  onblur="Codesum()"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-xs-3 control-label">码数量：</label>
+                    <div class="col-xs-9">
+                        <input id="NumCount" name="NumCount" type="text" class="form-control" value="1"  onblur="Codesum()" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-xs-3 control-label">结束码：</label>
+                    <div class="col-xs-9">
+                        <input id="EndNumber" name="EndNumber" type="text" class="form-control" readonly="readonly"/>
+
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-12">
+                        <div class="pull-right">
+                            <button id="submit" class="btn btn-primary pull-center" type="submit">
+                                <i class="fa fa-check"></i>&nbsp;提&nbsp;交
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </form>
+        </div>
+    </div>
+
+
+    <!-- 全局js -->
+    <script type="text/javascript" src="~/Scripts/jquery.min.js?v=2.1.4"></script>
+    <script type="text/javascript" src="~/Scripts/bootstrap.min.js?v=3.3.6"></script>
+
+    <!-- jQuery Validation plugin javascript-->
+    <script type="text/javascript" src="~/Scripts/plugins/validate/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/plugins/validate/messages_zh.min.js"></script>
+    @*<script type="text/javascript" src="~/Scripts/Extensions/ExtValidator.js"></script>*@
+
+    <!-- layer javascript -->
+    <script type="text/javascript" src="~/Scripts/plugins/layer/layer.min.js"></script>
+    <script>
+        $(function () {
+            // validate signup form on keyup and submit
+            var icon = "<i class='fa fa-times-circle'></i> ";
+            var validator = $("#mainForm").validate({
+                rules: {
+                    StartNumber: {
+                        required: true
+                    },
+                    NumCount: {
+                        required: true
+                    },
+                    EndNumber: {
+                        required: true
+                    }
+                },
+                messages: {
+                    StartNumber: {
+                        required: icon + "请输入开始码",
+                    },
+                    NumCount: {
+                        required: icon + "请输入码数量",
+                    },
+                    EndNumber: {
+                        required: icon + "请输入结束码",
+                    }
+                },
+                submitHandler: function (form) {
+                    //进行ajax传值
+                    $.ajax({
+                        url: "/UserAllocation/InsertAsync",
+                        type: "post",
+                        dataType: "json",
+                        data: GetJsonData(),
+                        success: function (data) {
+                            //Info,Success,Warning,Error
+                            var type = data.type;
+                            if (type == 1) {
+                                layer.msg(data.content, { icon: 6, time: 2000 },
+                                    function () {
+                                        var index = parent.layer.getFrameIndex(window.name);
+                                        parent.layer.close(index);
+                                    });
+
+                            } else {
+                                layer.msg(data.content, { icon: 5, time: 2000 });
+                            }
+                        }
+                    });
+                }
+            });
+
+            function GetJsonData() {
+                var json = {
+                    "UaId": $("#UserAccount").val(),
+                    "StartNumber": $("#StartNumber").val(),
+                    "EndNumber": $("#EndNumber").val(),
+                    "NumCount": $("#NumCount").val(),
+                    "AllocationStare": 1
+                };
+                return json;
+            }
+
+
+        });
+        Codesum();
+
+        function Codesum() {
+
+            var count = $("#NumCount").val();
+            var start = $("#StartNumber").val();
+
+            var endcode = parseInt(start) + parseInt(count) - 1;
+            $("#EndNumber").val(endcode);
+        }
+
+
+    </script>
+</body>
+</html>

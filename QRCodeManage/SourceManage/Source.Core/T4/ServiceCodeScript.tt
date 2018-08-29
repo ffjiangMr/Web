@@ -1,0 +1,59 @@
+﻿<#@ template debug="true" hostspecific="true" language="C#" #>
+<#@ output extension="txt" #>
+<#@ assembly name="System.Core" #>
+<#@ assembly name="System.ComponentModel.DataAnnotations" #>
+<#@ assembly name="$(SolutionDir)\SourceManage\Source.Core\bin\Debug\TomNet.Utility.dll" #>
+<#@ assembly name="$(SolutionDir)\SourceManage\Source.Core\bin\Debug\TomNet.Core.dll" #>
+<#@ assembly name="$(SolutionDir)\SourceManage\Source.Core\bin\Debug\TomNet.Data.Entity.dll" #>
+<#@ import namespace="System.IO" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Reflection" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="System.ComponentModel.DataAnnotations" #>
+<#@ import namespace="System.ComponentModel.DataAnnotations.Schema" #>
+<#@ import namespace="TomNet.Utility.Extensions" #>
+<#@ import namespace="TomNet.Utility.Develop.T4" #>
+<#@ import namespace="TomNet.Core.Security" #>
+<#@ include file="T4Toolbox.tt" #>
+<#@ include file="Template\ServiceTemplate.tt" #>
+<#
+    string currentPath = Path.GetDirectoryName(Host.TemplateFile);
+    string projectPath = currentPath.Substring(0, currentPath.IndexOf(@"\T4"));
+    string solutionPath = currentPath.Substring(0, currentPath.IndexOf(@"\SourceManage\Source.Core"));
+
+    string modelFile = Path.Combine(projectPath, @"bin\Debug\Source.Model.dll");
+    byte[] fileData = File.ReadAllBytes(modelFile);
+    Assembly assembly = Assembly.Load(fileData);
+    Type baseType = typeof(Function).BaseType.BaseType.GetGenericTypeDefinition();
+    List<Type> modelTypes = null;
+    try
+    {
+        modelTypes = assembly.GetTypes().Where(m => baseType.IsGenericAssignableFrom(m) && !m.IsAbstract).ToList();
+	}    
+    catch(ReflectionTypeLoadException e)
+    {
+        foreach(var ex in e.LoaderExceptions)
+        {
+	#>
+<#= ex #>
+	<#
+        }
+    }
+    string mainNameSpace = "Source.Core";
+    string folderPath = "Services";
+    string contract="Contracts";
+    foreach(Type modelType in modelTypes)
+    {
+        var attr = modelType.GetCustomAttributes(true).OfType<NotMappedAttribute>();
+        var notMappeds = attr.Any(a => a is NotMappedAttribute);
+        if (notMappeds) { continue; }
+        T4ModelInfo model = new T4ModelInfo(modelType,"(?<=Source.Model.DbModels.).*");
+        string path = string.Format(@"{0}\{1}\{2}", projectPath, folderPath, model.ModuleName);
+        ServiceTemplate config = new ServiceTemplate(model, mainNameSpace, folderPath, contract);
+        path = Path.Combine(path, config.FileName);
+        config.Output.Encoding = Encoding.UTF8;
+        config.RenderToFile(path);
+    }
+#>
+

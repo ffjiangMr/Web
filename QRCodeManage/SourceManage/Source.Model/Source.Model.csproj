@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D69D8420-7A69-4B0E-A469-E8D93724CD13}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Source.Model</RootNamespace>
+    <AssemblyName>Source.Model</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DbModels\Base\APILogInfo.cs" />
+    <Compile Include="DbModels\QRCode\UserAccount.cs" />
+    <Compile Include="DbModels\QRCode\UserAllocation.cs" />
+    <Compile Include="DbModels\QRCode\UserNumber.cs" />
+    <Compile Include="DbModels\QRCode\UserNumBox.cs" />
+    <Compile Include="DbModels\Base\SysAccountInfo.cs" />
+    <Compile Include="DbModels\Base\BaseDictionariesInfo.cs" />
+    <Compile Include="Infrastructure\IAudited.cs" />
+    <Compile Include="Infrastructure\ICreator.cs" />
+    <Compile Include="Infrastructure\IGeneral.cs" />
+    <Compile Include="Infrastructure\ISync.cs" />
+    <Compile Include="Infrastructure\Models\AuditedBase.cs" />
+    <Compile Include="Infrastructure\Models\CreatorBase.cs" />
+    <Compile Include="Infrastructure\Models\GeneralBase.cs" />
+    <Compile Include="Infrastructure\Models\SyncBase.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Source\TomNet.Core\TomNet.Core.csproj">
+      <Project>{62a60820-ada4-4c82-ad3e-8c79f8800ca3}</Project>
+      <Name>TomNet.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Source\TomNet.Utility\TomNet.Utility.csproj">
+      <Project>{4b720f8f-5b03-4731-a4bd-b04dc34a97d8}</Project>
+      <Name>TomNet.Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

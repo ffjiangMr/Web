@@ -1,0 +1,63 @@
+﻿<#+
+public class ConfigurationTemplate : CSharpTemplate
+{
+    private T4ModelInfo _model;
+	private string _mainNameSpace;
+    private string moduleName;
+    private string keyType;
+
+    public ConfigurationTemplate(T4ModelInfo model, string mainNameSpace)
+    {
+        _model = model;
+		_mainNameSpace = mainNameSpace;
+        moduleName = string.IsNullOrEmpty(_model.ModuleName) ? "":"." + _model.ModuleName;
+        keyType = _model.KeyType == null || _model.KeyType == typeof(int) ? "int" : _model.KeyType.Name;
+    }
+
+    public string FileName
+    {
+        get{ return string.Format("{0}Configuration.Generated.cs", _model.Name); }
+    }
+	public override string TransformText()
+	{
+		base.TransformText();
+#>
+// -----------------------------------------------------------------------
+//  <copyright file="<#= _model.Name #>Configuration.Generated.cs">
+//      Copyright (c) 2017 TomNet. All rights reserved.
+//  </copyright>
+//  <last-editor>TomNet</last-editor>
+// -----------------------------------------------------------------------
+
+using System;
+using TomNet.Data.Entity;
+using <#= _model.Namespace #>;
+
+
+namespace <#= _mainNameSpace #>.ModelConfigurations<#= moduleName #>
+{
+    /// <summary>
+    /// 实体类-数据表映射 -- <#= _model.Description #>
+    /// </summary> 
+	public partial class <#= _model.Name #>Configuration : EntityConfigurationBase<<#= _model.Name #>, <#= keyType #>>
+    { 
+        /// <summary>
+        /// 初始化一个<see cref="<#= _model.Name #>Configuration"/>类型的新实例
+        /// </summary>
+        public <#= _model.Name #>Configuration()
+        {
+            <#= _model.Name #>ConfigurationAppend();
+        }
+
+        /// <summary>
+        /// 额外的数据映射
+        /// </summary>
+        partial void <#= _model.Name #>ConfigurationAppend();
+    }
+}
+
+<#+
+        return this.GenerationEnvironment.ToString();
+	}
+}
+#>

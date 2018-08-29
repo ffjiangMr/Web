@@ -1,0 +1,94 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link href="~/Content/Css/bootstrap.min.css?v=3.3.6" rel="stylesheet">
+    <link href="~/Content/Css/font-awesome.css?v=4.4.0" rel="stylesheet">
+    <link href="~/Content/Css/plugins/bootstrap-table/bootstrap-table.min.css" rel="stylesheet">
+    <link href="~/Content/Style/animate.css" rel="stylesheet">
+    <link href="~/Content/Style/style.css?v=4.1.0" rel="stylesheet">
+    <style>
+        .ibox {
+            margin-bottom: 0px;
+        }
+
+        /*.ibox-content {
+            padding: 15px 20px 0px 20px;
+        }*/
+    </style>
+</head>
+<body class="gray-bg">
+    <div class="wrapper wrapper-content animated fadeInRight">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h5>活码使用管理</h5>
+            </div>
+            <div class="ibox-content">
+                <div class="row row-lg">
+                    <div class="col-sm-10">
+                        <div class="btn-group">
+                            @*<button id="insertBtn" type="button" class="btn btn-outline btn-default">
+                                <i class="glyphicon glyphicon-plus" aria-hidden="true"></i>
+                            </button>*@
+                            @*<button id="editBtn" type="button" class="btn btn-outline btn-default">
+                                <i class="glyphicon glyphicon-edit" aria-hidden="true"></i>
+                            </button>*@
+                            @*<button id="deleteBtn" type="button" class="btn btn-outline btn-default">
+                                <i class="glyphicon glyphicon-trash" aria-hidden="true"></i>
+                            </button>*@
+                            @*<button id="contact" type="button" class="btn btn-outline btn-default">
+                                <i class="glyphicon glyphicon-upload" aria-hidden="true"></i>
+                            </button>*@
+                            <button id="refreshBtn" type="button" class="btn btn-outline btn-default">
+                                <i class="glyphicon glyphicon-refresh" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="input-group">
+                            <input id="searchKey" type="text" class="form-control" placeholder="请输入要搜索的内容...">
+                            <span class="input-group-btn">
+                                <button id="searchBtn" type="button" class="btn btn-primary">
+                                    搜索
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row row-lg">
+                    <div class="col-sm-12">
+                        <table id="table"></table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        @* 用来传递消息的隐藏域 *@
+        <input id="handle_status" value="" hidden="hidden">
+    </div>
+
+
+    <!-- 全局js -->
+    <script type="text/javascript" src="~/Scripts/jquery.min.js?v=2.1.4"></script>
+    <script type="text/javascript" src="~/Scripts/bootstrap.min.js?v=3.3.6"></script>
+    <!-- 自定义js -->
+    <script type="text/javascript" src="~/Scripts/content.js?v=1.0.0"></script>
+    <!-- Bootstrap table -->
+    <script type="text/javascript" src="~/Scripts/plugins/bootstrap-table/bootstrap-table.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.min.js"></script>
+
+    <!-- layer javascript -->
+    <script type="text/javascript" src="~/Scripts/plugins/layer/layer.min.js"></script>
+
+
+    <script src="~/ScriptsControllers/QRCode/UserNumBox.js?a=@(DateTime.Now.Ticks)"></script>
+
+</body>
+</html>

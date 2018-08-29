@@ -1,0 +1,1515 @@
+﻿SET IDENTITY_INSERT [dbo].[SysDictionaryModels] ON; 
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (1, N'UserDictionaryType', N'HouseSourceType', N'二维码工厂参数')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (2, N'HouseSourceType', N'Metro', N'地铁')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (3, N'HouseSourceType', N'LoopWire', N'环线')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (4, N'HouseSourceType', N'Purpose', N'用途')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (5, N'HouseSourceType', N'BuildingType', N'建筑类型')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (6, N'HouseSourceType', N'Orientation', N'朝向')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (7, N'HouseSourceType', N'Tax', N'税费')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (8, N'HouseSourceType', N'Property', N'产权类型')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (9, N'HouseSourceType', N'Certificates', N'证件')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (10, N'HouseSourceType', N'Payment', N'付款方式')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (11, N'HouseSourceType', N'PayCommission', N'付佣')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (12, N'HouseSourceType', N'Status', N'现状')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (13, N'HouseSourceType', N'Observe', N'看房方式')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (14, N'HouseSourceType', N'Decoration', N'装修')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (15, N'HouseSourceType', N'Complement', N'配套')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (16, N'HouseSourceType', N'Appliances', N'家电')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (17, N'HouseSourceType', N'Furniture', N'家具')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (18, N'HouseSourceType', N'Source', N'来源')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (19, N'HouseSourceType', N'TrustType', N'委托方式')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (20, N'HouseSourceType', N'RemarksFurniture', N'备注家具')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (21, N'HouseSourceType', N'RemarksAppliances', N'备注家电')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (22, N'HouseSourceType', N'RemarksOther', N'备注其他')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (23, N'HouseSourceType', N'HouseInfo', N'住宅明细')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (24, N'HouseSourceType', N'Nationality', N'业主国籍')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (25, N'HouseSourceType', N'FollowMode', N'跟进方式')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (26, N'HouseSourceType', N'FollowShield', N'跟进屏蔽词汇')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (27, N'HouseSourceType', N'FollowCommonWordType', N'跟进常用语类别')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (28, N'HouseSourceType', N'LandGrade', N'土地级别')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (29, N'HouseSourceType', N'BuildingStructure', N'建筑结构')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (30, N'HouseSourceType', N'Wall', N'楼盘外墙')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (31, N'HouseSourceType', N'Media', N'广告媒体')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (32, N'HouseSourceType', N'Referral', N'转介来源')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (33, N'UserDictionaryType', N'BusinessesHouseSourceType', N'商业二维码工厂参数')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (34, N'BusinessesHouseSourceType', N'Floor', N'层数')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (35, N'BusinessesHouseSourceType', N'Property', N'产权类型')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (36, N'BusinessesHouseSourceType', N'Certificates', N'证件')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (37, N'BusinessesHouseSourceType', N'Shops', N'商铺')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (38, N'BusinessesHouseSourceType', N'Office', N'写字间')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (39, N'BusinessesHouseSourceType', N'Workshop', N'厂房')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (40, N'BusinessesHouseSourceType', N'Land', N'地皮')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (41, N'BusinessesHouseSourceType', N'Place', N'车位')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (42, N'Shops', N'Position', N'位置')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (43, N'Shops', N'Type', N'类型')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (44, N'Shops', N'Industry', N'行业')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (45, N'Shops', N'Toilet', N'厕所')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (46, N'Shops', N'District', N'地段')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (47, N'Shops', N'Remarks', N'备注')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (48, N'Shops', N'Info', N'明细')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (49, N'Office', N'Level', N'级别')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (50, N'Office', N'Type', N'类型')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (51, N'Office', N'Toilet', N'厕所')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (52, N'Office', N'Complement', N'配套')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (53, N'Office', N'AirConditioner', N'空调')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (54, N'Office', N'Remarks', N'备注')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (55, N'Office', N'Info', N'明细')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (56, N'Workshop', N'Type', N'类型')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (57, N'Workshop', N'State', N'现状')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (58, N'Workshop', N'Complement', N'配套')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (59, N'Workshop', N'Wall', N'围墙')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (60, N'Workshop', N'Dormitory', N'宿舍')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (61, N'Workshop', N'Canteen', N'食堂')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (62, N'Workshop', N'Certificates', N'证件')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (63, N'Land', N'Plan', N'规划')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (64, N'Land', N'State', N'状态')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (65, N'Land', N'Type', N'类型')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (66, N'Land', N'Remarks', N'备注')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (67, N'Land', N'Info', N'明细')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (68, N'Place', N'Position', N'位置')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (69, N'Place', N'Type', N'类型')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (70, N'Place', N'SweptVolume', N'排量')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (71, N'UserDictionaryType', N'CustomerSourceType', N'客源信息参数')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (72, N'CustomerSourceType', N'Type', N'客户类型')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (73, N'CustomerSourceType', N'Grade', N'客户等级')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (74, N'CustomerSourceType', N'State', N'客户现住')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (75, N'CustomerSourceType', N'Intention', N'客户意向')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (76, N'CustomerSourceType', N'Term', N'期限')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (77, N'CustomerSourceType', N'Payment', N'付款')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (78, N'CustomerSourceType', N'PayCommission', N'付佣')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (79, N'CustomerSourceType', N'Source', N'来源')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (80, N'CustomerSourceType', N'EntrustMode', N'委托方式')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (81, N'CustomerSourceType', N'Remarks', N'备注')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (82, N'CustomerSourceType', N'FollowCommonWordType', N'跟进常用语')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (83, N'UserDictionaryType', N'Other', N'其他参数')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (84, N'Other', N'Blacklist', N'黑名单')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (85, N'UserDictionaryType', N'User', N'人员信息')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (86, N'User', N'Nation', N'民族')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (87, N'User', N'PoliticalStatus', N'面貌')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (88, N'User', N'Source', N'来源')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (89, N'UserDictionaryType', N'School', N'学校参数')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (90, N'School', N'Type', N'学校类型')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (91, N'School', N'Grade', N'学校级别')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (92, N'Workshop', N'Remarks', N'备注')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (93, N'Workshop', N'Info', N'明细')
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (94,N'BusinessesHouseSourceType', N'PropertyYear', N'产权年限');
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (95,N'HouseSourceType', N'PropertyYear', N'产权年限');
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (96,N'BusinessesHouseSourceType', N'BuildYear', N'建房年代');
+
+INSERT [dbo].[SysDictionaryModels] ([Id], [Name], [Value], [Explain]) VALUES (97,N'HouseSourceType', N'BuildYear', N'建房年代');
+
+SET IDENTITY_INSERT [dbo].[SysDictionaryModels] OFF;
+
+
+SET IDENTITY_INSERT [dbo].[UserDictionaryModels] ON 
+
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (1, N'User-Nation', N'汉族', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (2, N'User-Nation', N'壮族', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (3, N'User-Nation', N'满族', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (4, N'User-Nation', N'回族', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (5, N'User-Nation', N'苗族', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (6, N'User-Nation', N'维吾尔族', N'06', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (7, N'User-Nation', N'土家族', N'07', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (8, N'User-Nation', N'彝族', N'08', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (9, N'User-Nation', N'蒙古族', N'09', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (10, N'User-Nation', N'藏族', N'10', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (11, N'User-Nation', N'布依族', N'11', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (12, N'User-Nation', N'侗族', N'12', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (13, N'User-Nation', N'瑶族', N'13', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (14, N'User-Nation', N'朝鲜族', N'14', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (15, N'User-Nation', N'白族', N'15', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (16, N'User-Nation', N'哈尼族', N'16', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (17, N'User-Nation', N'哈萨克族', N'17', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (18, N'User-Nation', N'黎族', N'18', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (19, N'User-Nation', N'傣族', N'19', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (20, N'User-Nation', N'畲族', N'20', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (21, N'User-Nation', N'傈僳族', N'21', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (22, N'User-Nation', N'仡佬族', N'22', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (23, N'User-Nation', N'东乡族', N'23', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (24, N'User-Nation', N'高山族', N'24', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (25, N'User-Nation', N'拉祜族', N'25', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (26, N'User-Nation', N'水族', N'26', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (27, N'User-Nation', N'佤族', N'27', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (28, N'User-Nation', N'纳西族', N'28', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (29, N'User-Nation', N'羌族', N'29', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (30, N'User-Nation', N'土族', N'30', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (31, N'User-Nation', N'仫佬族', N'31', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (32, N'User-Nation', N'锡伯族', N'32', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (33, N'User-Nation', N'柯尔克孜族', N'33', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (34, N'User-Nation', N'达斡尔族', N'34', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (35, N'User-Nation', N'景颇族', N'35', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (36, N'User-Nation', N'毛南族', N'36', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (37, N'User-Nation', N'撒拉族', N'37', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (38, N'User-Nation', N'塔吉克族', N'38', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (39, N'User-Nation', N'阿昌族', N'39', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (40, N'User-Nation', N'普米族', N'40', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (41, N'User-Nation', N'鄂温克族', N'41', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (42, N'User-Nation', N'怒族', N'42', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (43, N'User-Nation', N'京族', N'43', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (44, N'User-Nation', N'基诺族', N'44', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (45, N'User-Nation', N'德昂族', N'45', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (46, N'User-Nation', N'保安族', N'46', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (47, N'User-Nation', N'俄罗斯族', N'47', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (48, N'User-Nation', N'裕固族', N'48', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (49, N'User-Nation', N'乌兹别克族', N'49', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (50, N'User-Nation', N'门巴族', N'50', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (51, N'User-Nation', N'鄂伦春族', N'51', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (52, N'User-Nation', N'独龙族', N'52', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (53, N'User-Nation', N'塔塔尔族', N'53', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (54, N'User-Nation', N'赫哲族', N'54', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (55, N'User-Nation', N'珞巴族', N'55', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (56, N'User-Nation', N'布朗族', N'56', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (57, N'User-PoliticalStatus', N'群众', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (58, N'User-PoliticalStatus', N'团员', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (59, N'User-PoliticalStatus', N'党员', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (60, N'User-PoliticalStatus', N'其他', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (61, N'User-Source', N'其他', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (62, N'User-Source', N'市场招聘', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (63, N'User-Source', N'网站招聘', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (64, N'User-Source', N'员工介绍', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (65, N'School-Type', N'', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (66, N'School-Type', N'公办', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (67, N'School-Type', N'民办', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (68, N'School-Type', N'私立', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (69, N'School-Grade', N'', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (70, N'School-Grade', N'省重点', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (71, N'School-Grade', N'市重点', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (72, N'School-Grade', N'区重点', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (73, N'HouseSourceType-LoopWire', N'1环内', N'01', N'环线', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (74, N'HouseSourceType-LoopWire', N'1-2环', N'02', N'环线', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (75, N'HouseSourceType-LoopWire', N'2-3环', N'03', N'环线', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (76, N'HouseSourceType-LoopWire', N'3-4环', N'04', N'环线', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (77, N'HouseSourceType-Purpose', N'住宅', N'01', N'用途', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (78, N'HouseSourceType-Purpose', N'商住', N'02', N'用途', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (79, N'HouseSourceType-Purpose', N'商铺', N'03', N'用途', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (80, N'HouseSourceType-Purpose', N'写字间', N'04', N'用途', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (81, N'HouseSourceType-Purpose', N'厂房', N'05', N'用途', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (82, N'HouseSourceType-Purpose', N'仓库', N'06', N'用途', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (83, N'HouseSourceType-Purpose', N'地皮', N'07', N'用途', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (84, N'HouseSourceType-Purpose', N'车位', N'08', N'用途', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (85, N'HouseSourceType-Purpose', N'车库', N'09', N'用途', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (86, N'HouseSourceType-Purpose', N'其他', N'10', N'用途', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (87, N'HouseSourceType-Metro', N'1号线', N'01', N'地铁', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (88, N'HouseSourceType-Metro', N'2号线', N'02', N'地铁', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (89, N'HouseSourceType-BuildingType', N'多层', N'01', N'建筑类型', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (90, N'HouseSourceType-BuildingType', N'高层', N'02', N'建筑类型', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (91, N'HouseSourceType-BuildingType', N'小高层', N'03', N'建筑类型', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (92, N'HouseSourceType-BuildingType', N'多层复式', N'04', N'建筑类型', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (93, N'HouseSourceType-BuildingType', N'高层复式 ', N'05', N'建筑类型', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (94, N'HouseSourceType-BuildingType', N'多层跃式 ', N'06', N'建筑类型', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (95, N'HouseSourceType-BuildingType', N'高层跃式', N'07', N'建筑类型', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (96, N'HouseSourceType-BuildingType', N'独立别墅', N'08', N'建筑类型', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (97, N'HouseSourceType-BuildingType', N'联体别墅', N'09', N'建筑类型', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (98, N'HouseSourceType-BuildingType', N'双拼别墅', N'10', N'建筑类型', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (99, N'HouseSourceType-BuildingType', N'裙楼', N'11', N'建筑类型', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (100, N'HouseSourceType-BuildingType', N'四合院', N'12', N'建筑类型', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (101, N'HouseSourceType-Orientation', N'南北', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (102, N'HouseSourceType-Orientation', N'东西', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (103, N'HouseSourceType-Orientation', N'南', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (104, N'HouseSourceType-Orientation', N'北', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (105, N'HouseSourceType-Orientation', N'东', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (106, N'HouseSourceType-Orientation', N'西', N'06', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (107, N'HouseSourceType-Orientation', N'东南', N'07', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (108, N'HouseSourceType-Orientation', N'西南', N'08', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (109, N'HouseSourceType-Orientation', N'东北', N'09', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (110, N'HouseSourceType-Orientation', N'西北', N'10', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (111, N'HouseSourceType-Orientation', N'不限', N'11', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (112, N'HouseSourceType-Tax', N'各付', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (113, N'HouseSourceType-Tax', N'实得', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (114, N'HouseSourceType-Tax', N'净得', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (115, N'HouseSourceType-Tax', N'包税', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (116, N'HouseSourceType-Property', N'商品房', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (117, N'HouseSourceType-Property', N'房改房', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (118, N'HouseSourceType-Property', N'经济适用房', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (119, N'HouseSourceType-Property', N'集体房', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (120, N'HouseSourceType-Property', N'军产房', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (121, N'HouseSourceType-Property', N'回迁房', N'06', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (122, N'HouseSourceType-Property', N'使用权', N'07', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (123, N'HouseSourceType-Certificates', N'', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (124, N'HouseSourceType-Certificates', N'房产证', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (125, N'HouseSourceType-Certificates', N'购房合同', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (126, N'HouseSourceType-Certificates', N'购房发票', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (127, N'HouseSourceType-Certificates', N'抵押合同', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (128, N'HouseSourceType-Certificates', N'认购书', N'06', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (129, N'HouseSourceType-Certificates', N'预购合同', N'07', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (130, N'HouseSourceType-Certificates', N'回迁协议', N'08', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (131, N'HouseSourceType-Certificates', N'收件收据', N'09', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (132, N'HouseSourceType-Orientation', N'', N'12', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (133, N'HouseSourceType-Tax', N'', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (134, N'HouseSourceType-Property', N'', N'08', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (135, N'HouseSourceType-Payment', N'  ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (136, N'HouseSourceType-Payment', N'半年租', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (137, N'HouseSourceType-Payment', N'垫资销贷', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (138, N'HouseSourceType-Payment', N'季租', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (139, N'HouseSourceType-Payment', N'可贷款', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (140, N'HouseSourceType-Payment', N'年租', N'06', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (141, N'HouseSourceType-Payment', N'一次付清', N'07', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (142, N'HouseSourceType-Payment', N'月租', N'08', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (143, N'HouseSourceType-PayCommission', N'带阁楼', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (144, N'HouseSourceType-PayCommission', N'带花园', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (145, N'HouseSourceType-PayCommission', N'地铁沿线', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (146, N'HouseSourceType-PayCommission', N'供暖好', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (147, N'HouseSourceType-PayCommission', N'婚装房', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (148, N'HouseSourceType-PayCommission', N'开发商更名', N'06', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (149, N'HouseSourceType-PayCommission', N'满五唯一', N'07', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (150, N'HouseSourceType-PayCommission', N'投资房', N'08', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (151, N'HouseSourceType-PayCommission', N'无', N'09', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (152, N'HouseSourceType-PayCommission', N'学区房', N'10', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (153, N'HouseSourceType-PayCommission', N'有钥即看', N'11', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (154, N'HouseSourceType-PayCommission', N'证过五年', N'12', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (155, N'HouseSourceType-Status', N'  ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (156, N'HouseSourceType-Status', N'空置', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (157, N'HouseSourceType-Status', N'在租', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (158, N'HouseSourceType-Status', N'自住', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (159, N'HouseSourceType-Observe', N'  ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (160, N'HouseSourceType-Observe', N'借匙', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (161, N'HouseSourceType-Observe', N'有匙', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (162, N'HouseSourceType-Observe', N'预约 ', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (163, N'HouseSourceType-Observe', N'直接', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (164, N'HouseSourceType-Decoration', N'  ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (165, N'HouseSourceType-Decoration', N'豪装', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (166, N'HouseSourceType-Decoration', N'简装', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (167, N'HouseSourceType-Decoration', N'精装', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (168, N'HouseSourceType-Decoration', N'毛坯', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (169, N'HouseSourceType-Decoration', N'清水', N'06', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (170, N'HouseSourceType-Decoration', N'中装', N'07', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (171, N'HouseSourceType-Complement', N'  ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (172, N'HouseSourceType-Complement', N'地砖', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (173, N'HouseSourceType-Complement', N'阁楼', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (174, N'HouseSourceType-Complement', N'花园', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (175, N'HouseSourceType-Complement', N'露台', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (176, N'HouseSourceType-Complement', N'木地板', N'06', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (177, N'HouseSourceType-Appliances', N'  ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (178, N'HouseSourceType-Appliances', N'可配', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (179, N'HouseSourceType-Appliances', N'老式', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (180, N'HouseSourceType-Appliances', N'留部分', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (181, N'HouseSourceType-Appliances', N'配套', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (182, N'HouseSourceType-Appliances', N'全新', N'06', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (183, N'HouseSourceType-Appliances', N'无', N'07', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (184, N'HouseSourceType-Furniture', N'  ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (185, N'HouseSourceType-Furniture', N'可配', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (186, N'HouseSourceType-Furniture', N'老式', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (187, N'HouseSourceType-Furniture', N'留部分', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (188, N'HouseSourceType-Furniture', N'配套', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (189, N'HouseSourceType-Furniture', N'全新', N'06', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (190, N'HouseSourceType-Furniture', N'无', N'07', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (191, N'HouseSourceType-Source', N'  ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (192, N'HouseSourceType-Source', N'58同城', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (193, N'HouseSourceType-Source', N'蹲守', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (194, N'HouseSourceType-Source', N'赶集', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (195, N'HouseSourceType-Source', N'广告', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (196, N'HouseSourceType-Source', N'来访', N'06', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (197, N'HouseSourceType-Source', N'朋友', N'07', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (198, N'HouseSourceType-Source', N'其他网络', N'08', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (199, N'HouseSourceType-Source', N'扫街', N'09', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (200, N'HouseSourceType-Source', N'搜房', N'10', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (201, N'HouseSourceType-Source', N'贴条', N'11', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (202, N'HouseSourceType-Source', N'驻守', N'12', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (203, N'HouseSourceType-Source', N'转介', N'13', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (204, N'HouseSourceType-TrustType', N'  ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (205, N'HouseSourceType-TrustType', N'A-独家', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (206, N'HouseSourceType-TrustType', N'B-签约', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (207, N'HouseSourceType-TrustType', N'C-未签', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (208, N'HouseSourceType-TrustType', N'P普通委托', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (209, N'HouseSourceType-TrustType', N'X-收购', N'06', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (210, N'HouseSourceType-TrustType', N'X-托管', N'07', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (211, N'HouseSourceType-TrustType', N'X-限时', N'08', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (212, N'HouseSourceType-RemarksFurniture', N'餐桌', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (213, N'HouseSourceType-RemarksFurniture', N'茶几', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (214, N'HouseSourceType-RemarksFurniture', N'床', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (215, N'HouseSourceType-RemarksFurniture', N'地柜', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (216, N'HouseSourceType-RemarksFurniture', N'电视柜', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (217, N'HouseSourceType-RemarksFurniture', N'宽带', N'06', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (218, N'HouseSourceType-RemarksFurniture', N'沙发', N'07', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (219, N'HouseSourceType-RemarksFurniture', N'书桌', N'08', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (220, N'HouseSourceType-RemarksFurniture', N'衣柜', N'09', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (221, N'HouseSourceType-RemarksAppliances', N'冰箱', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (222, N'HouseSourceType-RemarksAppliances', N'抽油烟机', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (223, N'HouseSourceType-RemarksAppliances', N'电风扇', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (224, N'HouseSourceType-RemarksAppliances', N'电话', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (225, N'HouseSourceType-RemarksAppliances', N'电视', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (226, N'HouseSourceType-RemarksAppliances', N'空调', N'06', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (227, N'HouseSourceType-RemarksAppliances', N'煤气炉', N'07', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (228, N'HouseSourceType-RemarksAppliances', N'热水器', N'08', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (229, N'HouseSourceType-RemarksAppliances', N'洗衣机', N'09', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (230, N'HouseSourceType-RemarksOther', N'带阁楼', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (231, N'HouseSourceType-RemarksOther', N'带花园', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (232, N'HouseSourceType-RemarksOther', N'带露台', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (233, N'HouseSourceType-RemarksOther', N'地热供暖', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (234, N'HouseSourceType-RemarksOther', N'地铁房', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (235, N'HouseSourceType-RemarksOther', N'房屋原值是：', N'06', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (236, N'HouseSourceType-RemarksOther', N'房主有二套', N'07', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (237, N'HouseSourceType-RemarksOther', N'没过5年，上手时间是：', N'08', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (238, N'HouseSourceType-RemarksOther', N'学区房：', N'09', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (239, N'HouseSourceType-RemarksOther', N'园区景观楼', N'10', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (240, N'HouseSourceType-HouseInfo', N'0', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (241, N'HouseSourceType-HouseInfo', N'1', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (242, N'HouseSourceType-HouseInfo', N'2', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (243, N'HouseSourceType-HouseInfo', N'3', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (244, N'HouseSourceType-HouseInfo', N'4', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (245, N'HouseSourceType-HouseInfo', N'5', N'06', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (246, N'HouseSourceType-HouseInfo', N'6', N'07', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (247, N'HouseSourceType-HouseInfo', N'7', N'08', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (248, N'HouseSourceType-HouseInfo', N'8', N'09', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (249, N'HouseSourceType-HouseInfo', N'9', N'10', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (250, N'HouseSourceType-Nationality', N'澳门', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (251, N'HouseSourceType-Nationality', N'澳洲', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (252, N'HouseSourceType-Nationality', N'德国', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (253, N'HouseSourceType-Nationality', N'俄罗斯', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (254, N'HouseSourceType-Nationality', N'法国', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (255, N'HouseSourceType-Nationality', N'韩国', N'06', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (256, N'HouseSourceType-Nationality', N'加拿大', N'07', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (257, N'HouseSourceType-Nationality', N'美国', N'08', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (258, N'HouseSourceType-Nationality', N'欧洲', N'09', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (259, N'HouseSourceType-Nationality', N'其他', N'10', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (260, N'HouseSourceType-Nationality', N'日本', N'11', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (261, N'HouseSourceType-Nationality', N'台湾', N'12', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (262, N'HouseSourceType-Nationality', N'香港', N'13', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (263, N'HouseSourceType-Nationality', N'新西兰', N'14', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (264, N'HouseSourceType-Nationality', N'英国', N'15', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (265, N'HouseSourceType-Nationality', N'中国', N'16', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (266, N'HouseSourceType-FollowMode', N'保留', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (267, N'HouseSourceType-FollowMode', N'带看', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (268, N'HouseSourceType-FollowMode', N'独家', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (269, N'HouseSourceType-FollowMode', N'回访', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (270, N'HouseSourceType-FollowMode', N'假谈', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (271, N'HouseSourceType-FollowMode', N'勘验', N'06', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (272, N'HouseSourceType-FollowMode', N'其他', N'07', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (273, N'HouseSourceType-FollowMode', N'申请', N'08', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (274, N'HouseSourceType-FollowMode', N'修改', N'09', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (275, N'HouseSourceType-FollowMode', N'约看', N'10', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (276, N'HouseSourceType-FollowMode', N'钥匙', N'11', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (277, N'HouseSourceType-FollowMode', N'自看', N'12', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (278, N'HouseSourceType-FollowShield', N'打不通', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (279, N'HouseSourceType-FollowShield', N'关机', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (280, N'HouseSourceType-FollowShield', N'没人接', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (281, N'HouseSourceType-FollowShield', N'无人接', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (282, N'HouseSourceType-FollowCommonWordType', N'价格谈判', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (283, N'HouseSourceType-FollowCommonWordType', N'看房勘察', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (284, N'HouseSourceType-FollowCommonWordType', N'业主咨询', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (285, N'HouseSourceType-LandGrade', N'  ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (286, N'HouseSourceType-LandGrade', N'八级', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (287, N'HouseSourceType-LandGrade', N'二级', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (288, N'HouseSourceType-LandGrade', N'六级', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (289, N'HouseSourceType-LandGrade', N'七级', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (290, N'HouseSourceType-LandGrade', N'三级', N'06', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (291, N'HouseSourceType-LandGrade', N'四级', N'07', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (292, N'HouseSourceType-LandGrade', N'五级', N'08', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (293, N'HouseSourceType-LandGrade', N'一级', N'09', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (294, N'HouseSourceType-BuildingStructure', N'  ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (295, N'HouseSourceType-BuildingStructure', N'钢构', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (296, N'HouseSourceType-BuildingStructure', N'框架', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (297, N'HouseSourceType-BuildingStructure', N'框剪', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (298, N'HouseSourceType-BuildingStructure', N'砖混', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (299, N'HouseSourceType-Wall', N' ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (300, N'HouseSourceType-Wall', N'瓷砖', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (301, N'HouseSourceType-Wall', N'墙砖', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (302, N'HouseSourceType-Wall', N'沙浆', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (303, N'HouseSourceType-Wall', N'石米', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (304, N'HouseSourceType-Wall', N'涂料', N'06', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (305, N'HouseSourceType-Media', N'  ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (306, N'HouseSourceType-Media', N'晨报', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (307, N'HouseSourceType-Media', N'日报', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (308, N'HouseSourceType-Media', N'商报', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (309, N'HouseSourceType-Media', N'晚报', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (310, N'HouseSourceType-Referral', N' ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (311, N'HouseSourceType-Referral', N'二三转介', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (312, N'HouseSourceType-Referral', N'三二转介', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (313, N'HouseSourceType-Referral', N'三三转介', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (314, N'BusinessesHouseSourceType-Floor', N' ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (315, N'BusinessesHouseSourceType-Floor', N'八层', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (316, N'BusinessesHouseSourceType-Floor', N'两层', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (317, N'BusinessesHouseSourceType-Floor', N'六层', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (318, N'BusinessesHouseSourceType-Floor', N'七层', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (319, N'BusinessesHouseSourceType-Floor', N'三层', N'06', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (320, N'BusinessesHouseSourceType-Floor', N'四层', N'07', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (321, N'BusinessesHouseSourceType-Floor', N'五层', N'08', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (322, N'BusinessesHouseSourceType-Floor', N'一层', N'09', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (323, N'BusinessesHouseSourceType-Property', N' ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (324, N'BusinessesHouseSourceType-Property', N'房改房', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (325, N'BusinessesHouseSourceType-Property', N'集体房', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (326, N'BusinessesHouseSourceType-Property', N'商品房', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (327, N'BusinessesHouseSourceType-Certificates', N' ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (328, N'BusinessesHouseSourceType-Certificates', N'房地产证', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (329, N'BusinessesHouseSourceType-Certificates', N'购房合同', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (330, N'BusinessesHouseSourceType-Shops-Position', N' ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (331, N'BusinessesHouseSourceType-Shops-Position', N'临街商铺', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (332, N'BusinessesHouseSourceType-Shops-Position', N'商场商铺', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (333, N'BusinessesHouseSourceType-Shops-Position', N'小区商铺', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (334, N'BusinessesHouseSourceType-Shops-Type', N' ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (335, N'BusinessesHouseSourceType-Shops-Type', N'单铺', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (336, N'BusinessesHouseSourceType-Shops-Type', N'多铺打通', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (337, N'BusinessesHouseSourceType-Shops-Type', N'二铺打通', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (338, N'BusinessesHouseSourceType-Shops-Type', N'三铺打通', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (339, N'BusinessesHouseSourceType-Shops-Type', N'四铺打通', N'06', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (340, N'BusinessesHouseSourceType-Shops-Industry', N' ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (341, N'BusinessesHouseSourceType-Shops-Industry', N'宾馆酒店', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (342, N'BusinessesHouseSourceType-Shops-Industry', N'餐饮娱乐', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (343, N'BusinessesHouseSourceType-Shops-Industry', N'电子电器', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (344, N'BusinessesHouseSourceType-Shops-Industry', N'房产婚介', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (345, N'BusinessesHouseSourceType-Shops-Industry', N'服装干洗', N'06', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (346, N'BusinessesHouseSourceType-Shops-Industry', N'家具装饰', N'07', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (347, N'BusinessesHouseSourceType-Shops-Industry', N'教育培训', N'08', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (348, N'BusinessesHouseSourceType-Shops-Industry', N'金融证券', N'09', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (349, N'BusinessesHouseSourceType-Shops-Industry', N'批发交易', N'10', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (350, N'BusinessesHouseSourceType-Shops-Industry', N'其他行业', N'11', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (351, N'BusinessesHouseSourceType-Shops-Industry', N'商场超市', N'12', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (352, N'BusinessesHouseSourceType-Shops-Industry', N'摄影冲印', N'13', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (353, N'BusinessesHouseSourceType-Shops-Industry', N'生活服务', N'14', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (354, N'BusinessesHouseSourceType-Shops-Industry', N'文化艺术', N'15', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (355, N'BusinessesHouseSourceType-Shops-Industry', N'医药健康', N'16', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (356, N'BusinessesHouseSourceType-Shops-Industry', N'展示场所', N'17', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (357, N'BusinessesHouseSourceType-Shops-Toilet', N' ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (358, N'BusinessesHouseSourceType-Shops-Toilet', N'无厕所', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (359, N'BusinessesHouseSourceType-Shops-Toilet', N'有厕所', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (360, N'BusinessesHouseSourceType-Shops-District', N' ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (361, N'BusinessesHouseSourceType-Shops-District', N'黄金', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (362, N'BusinessesHouseSourceType-Shops-District', N'冷清', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (363, N'BusinessesHouseSourceType-Shops-District', N'普通', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (364, N'BusinessesHouseSourceType-Shops-District', N'热闹', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (365, N'BusinessesHouseSourceType-Shops-Remarks', N'电费', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (366, N'BusinessesHouseSourceType-Shops-Remarks', N'每年递增', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (367, N'BusinessesHouseSourceType-Shops-Remarks', N'水费', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (368, N'BusinessesHouseSourceType-Shops-Remarks', N'租期', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (369, N'BusinessesHouseSourceType-Shops-Info', N'电费', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (370, N'BusinessesHouseSourceType-Shops-Info', N'管理费', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (371, N'BusinessesHouseSourceType-Shops-Info', N'宽带费', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (372, N'BusinessesHouseSourceType-Shops-Info', N'水费', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (373, N'BusinessesHouseSourceType-Shops-Info', N'停车费', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (374, N'BusinessesHouseSourceType-Shops-Info', N'卫生费', N'06', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (375, N'BusinessesHouseSourceType-Shops-Info', N'押付方式', N'07', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (376, N'BusinessesHouseSourceType-Shops-Info', N'装修期限', N'08', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (377, N'BusinessesHouseSourceType-Office-Level', N' ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (378, N'BusinessesHouseSourceType-Office-Level', N'丙级写字楼', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (379, N'BusinessesHouseSourceType-Office-Level', N'顶级写字楼', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (380, N'BusinessesHouseSourceType-Office-Level', N'甲级写字楼', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (381, N'BusinessesHouseSourceType-Office-Level', N'乙级写字楼', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (382, N'BusinessesHouseSourceType-Office-Type', N' ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (383, N'BusinessesHouseSourceType-Office-Type', N'厂房改造', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (384, N'BusinessesHouseSourceType-Office-Type', N'纯写字楼', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (385, N'BusinessesHouseSourceType-Office-Type', N'酒店公寓', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (386, N'BusinessesHouseSourceType-Office-Type', N'商务公寓', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (387, N'BusinessesHouseSourceType-Office-Type', N'商住楼', N'06', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (388, N'BusinessesHouseSourceType-Office-Type', N'综合楼', N'07', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (389, N'BusinessesHouseSourceType-Office-Toilet', N' ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (390, N'BusinessesHouseSourceType-Office-Toilet', N'无厕所', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (391, N'BusinessesHouseSourceType-Office-Toilet', N'有厕所', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (392, N'BusinessesHouseSourceType-Office-Complement', N'地毯', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (393, N'BusinessesHouseSourceType-Office-Complement', N'地砖', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (394, N'BusinessesHouseSourceType-Office-Complement', N'木地板', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (395, N'BusinessesHouseSourceType-Office-AirConditioner', N' ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (396, N'BusinessesHouseSourceType-Office-AirConditioner', N'独立空调', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (397, N'BusinessesHouseSourceType-Office-AirConditioner', N'分户计量', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (398, N'BusinessesHouseSourceType-Office-AirConditioner', N'无空调', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (399, N'BusinessesHouseSourceType-Office-AirConditioner', N'中央空调', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (400, N'BusinessesHouseSourceType-Office-Remarks', N'电费', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (401, N'BusinessesHouseSourceType-Office-Remarks', N'空调加时费', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (402, N'BusinessesHouseSourceType-Office-Remarks', N'宽带', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (403, N'BusinessesHouseSourceType-Office-Remarks', N'每年递增', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (404, N'BusinessesHouseSourceType-Office-Remarks', N'水费', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (405, N'BusinessesHouseSourceType-Office-Remarks', N'月停车费', N'06', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (406, N'BusinessesHouseSourceType-Office-Remarks', N'租期', N'07', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (407, N'BusinessesHouseSourceType-Office-Info', N'第1隔间客户', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (408, N'BusinessesHouseSourceType-Office-Info', N'第1隔间门牌', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (409, N'BusinessesHouseSourceType-Office-Info', N'第1隔间面积', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (410, N'BusinessesHouseSourceType-Office-Info', N'第1隔间租价', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (411, N'BusinessesHouseSourceType-Office-Info', N'第2隔间客户', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (412, N'BusinessesHouseSourceType-Office-Info', N'第2隔间门牌', N'06', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (413, N'BusinessesHouseSourceType-Office-Info', N'第2隔间面积', N'07', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (414, N'BusinessesHouseSourceType-Office-Info', N'第2隔间租价', N'08', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (415, N'BusinessesHouseSourceType-Office-Info', N'第3隔间客户', N'09', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (416, N'BusinessesHouseSourceType-Office-Info', N'第3隔间门牌', N'10', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (417, N'BusinessesHouseSourceType-Office-Info', N'第3隔间面积', N'11', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (418, N'BusinessesHouseSourceType-Office-Info', N'第3隔间租价', N'12', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (419, N'BusinessesHouseSourceType-Office-Info', N'第4隔间客户', N'13', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (420, N'BusinessesHouseSourceType-Office-Info', N'第4隔间门牌', N'14', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (421, N'BusinessesHouseSourceType-Office-Info', N'第4隔间面积', N'15', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (422, N'BusinessesHouseSourceType-Office-Info', N'第4隔间租价', N'16', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (423, N'BusinessesHouseSourceType-Office-Info', N'第5隔间客户', N'17', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (424, N'BusinessesHouseSourceType-Office-Info', N'第5隔间门牌', N'18', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (425, N'BusinessesHouseSourceType-Office-Info', N'第5隔间面积', N'19', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (426, N'BusinessesHouseSourceType-Office-Info', N'第5隔间租价', N'20', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (427, N'BusinessesHouseSourceType-Office-Info', N'第6隔间客户', N'21', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (428, N'BusinessesHouseSourceType-Office-Info', N'第6隔间门牌', N'22', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (429, N'BusinessesHouseSourceType-Office-Info', N'第6隔间面积', N'23', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (430, N'BusinessesHouseSourceType-Office-Info', N'第6隔间租价', N'24', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (431, N'BusinessesHouseSourceType-Office-Info', N'电费', N'25', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (432, N'BusinessesHouseSourceType-Office-Info', N'管理费', N'26', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (433, N'BusinessesHouseSourceType-Office-Info', N'空调费', N'27', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (434, N'BusinessesHouseSourceType-Office-Info', N'宽带费', N'28', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (435, N'BusinessesHouseSourceType-Office-Info', N'水费', N'29', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (436, N'BusinessesHouseSourceType-Office-Info', N'停车费', N'30', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (437, N'BusinessesHouseSourceType-Office-Info', N'卫生费', N'31', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (438, N'BusinessesHouseSourceType-Office-Info', N'押付方式', N'32', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (439, N'BusinessesHouseSourceType-Office-Info', N'装修期限', N'33', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (440, N'BusinessesHouseSourceType-Workshop-Type', N'  ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (441, N'BusinessesHouseSourceType-Workshop-Type', N'独立式', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (442, N'BusinessesHouseSourceType-Workshop-Type', N'合租式', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (443, N'BusinessesHouseSourceType-Workshop-Type', N'酒店式', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (444, N'BusinessesHouseSourceType-Workshop-Type', N'平房', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (445, N'BusinessesHouseSourceType-Workshop-Type', N'私宅式', N'06', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (446, N'BusinessesHouseSourceType-Workshop-Type', N'铁皮房', N'07', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (447, N'BusinessesHouseSourceType-Workshop-State', N'  ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (448, N'BusinessesHouseSourceType-Workshop-State', N'空置', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (449, N'BusinessesHouseSourceType-Workshop-State', N'全新', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (450, N'BusinessesHouseSourceType-Workshop-State', N'在用', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (451, N'BusinessesHouseSourceType-Workshop-Complement', N' ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (452, N'BusinessesHouseSourceType-Workshop-Complement', N'交通很好', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (453, N'BusinessesHouseSourceType-Workshop-Complement', N'交通较差', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (454, N'BusinessesHouseSourceType-Workshop-Complement', N'交通较好', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (455, N'BusinessesHouseSourceType-Workshop-Complement', N'交通一般', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (456, N'BusinessesHouseSourceType-Workshop-Wall', N'  ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (457, N'BusinessesHouseSourceType-Workshop-Wall', N'无围墙', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (458, N'BusinessesHouseSourceType-Workshop-Wall', N'有围墙', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (459, N'BusinessesHouseSourceType-Workshop-Dormitory', N' ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (460, N'BusinessesHouseSourceType-Workshop-Dormitory', N'1000人', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (461, N'BusinessesHouseSourceType-Workshop-Dormitory', N'100人', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (462, N'BusinessesHouseSourceType-Workshop-Dormitory', N'1500人', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (463, N'BusinessesHouseSourceType-Workshop-Dormitory', N'150人', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (464, N'BusinessesHouseSourceType-Workshop-Dormitory', N'2000人', N'06', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (465, N'BusinessesHouseSourceType-Workshop-Dormitory', N'200人', N'07', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (466, N'BusinessesHouseSourceType-Workshop-Dormitory', N'3000人', N'08', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (467, N'BusinessesHouseSourceType-Workshop-Dormitory', N'300人', N'09', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (468, N'BusinessesHouseSourceType-Workshop-Dormitory', N'400人', N'10', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (469, N'BusinessesHouseSourceType-Workshop-Dormitory', N'500人', N'11', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (470, N'BusinessesHouseSourceType-Workshop-Dormitory', N'50人', N'12', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (471, N'BusinessesHouseSourceType-Workshop-Dormitory', N'600人', N'13', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (472, N'BusinessesHouseSourceType-Workshop-Dormitory', N'700人', N'14', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (473, N'BusinessesHouseSourceType-Workshop-Dormitory', N'800人', N'15', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (474, N'BusinessesHouseSourceType-Workshop-Dormitory', N'900人', N'16', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (475, N'BusinessesHouseSourceType-Workshop-Dormitory', N'无宿舍', N'17', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (476, N'BusinessesHouseSourceType-Workshop-Canteen', N' ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (477, N'BusinessesHouseSourceType-Workshop-Canteen', N'1000人', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (478, N'BusinessesHouseSourceType-Workshop-Canteen', N'100人', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (479, N'BusinessesHouseSourceType-Workshop-Canteen', N'1500人', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (480, N'BusinessesHouseSourceType-Workshop-Canteen', N'150人', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (481, N'BusinessesHouseSourceType-Workshop-Canteen', N'2000人', N'06', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (482, N'BusinessesHouseSourceType-Workshop-Canteen', N'200人', N'07', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (483, N'BusinessesHouseSourceType-Workshop-Canteen', N'3000人', N'08', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (484, N'BusinessesHouseSourceType-Workshop-Canteen', N'300人', N'09', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (485, N'BusinessesHouseSourceType-Workshop-Canteen', N'400人', N'10', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (486, N'BusinessesHouseSourceType-Workshop-Canteen', N'500人', N'11', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (487, N'BusinessesHouseSourceType-Workshop-Canteen', N'50人', N'12', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (488, N'BusinessesHouseSourceType-Workshop-Canteen', N'600人', N'13', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (489, N'BusinessesHouseSourceType-Workshop-Canteen', N'700人', N'14', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (490, N'BusinessesHouseSourceType-Workshop-Canteen', N'800人', N'15', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (491, N'BusinessesHouseSourceType-Workshop-Canteen', N'900人', N'16', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (492, N'BusinessesHouseSourceType-Workshop-Canteen', N'无食堂', N'17', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (493, N'BusinessesHouseSourceType-Workshop-Certificates', N'  ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (494, N'BusinessesHouseSourceType-Workshop-Certificates', N'房产证', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (495, N'BusinessesHouseSourceType-Workshop-Certificates', N'买地合同', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (496, N'BusinessesHouseSourceType-Workshop-Certificates', N'土地证', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (497, N'BusinessesHouseSourceType-Workshop-Remarks', N'电费', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (498, N'BusinessesHouseSourceType-Workshop-Remarks', N'电梯', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (499, N'BusinessesHouseSourceType-Workshop-Remarks', N'电梯承重', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (500, N'BusinessesHouseSourceType-Workshop-Remarks', N'每年递增', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (501, N'BusinessesHouseSourceType-Workshop-Remarks', N'水费', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (502, N'BusinessesHouseSourceType-Workshop-Remarks', N'租期', N'06', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (503, N'BusinessesHouseSourceType-Workshop-Info', N'变压器电量', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (504, N'BusinessesHouseSourceType-Workshop-Info', N'厂长费', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (505, N'BusinessesHouseSourceType-Workshop-Info', N'厂房层数', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (506, N'BusinessesHouseSourceType-Workshop-Info', N'厂房单层面积', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (507, N'BusinessesHouseSourceType-Workshop-Info', N'厂房栋数', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (508, N'BusinessesHouseSourceType-Workshop-Info', N'厂房二层高度', N'06', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (509, N'BusinessesHouseSourceType-Workshop-Info', N'厂房每栋面积', N'07', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (510, N'BusinessesHouseSourceType-Workshop-Info', N'厂房首层高度', N'08', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (511, N'BusinessesHouseSourceType-Workshop-Info', N'厂房租金', N'09', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (512, N'BusinessesHouseSourceType-Workshop-Info', N'承载重量', N'10', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (513, N'BusinessesHouseSourceType-Workshop-Info', N'电费', N'11', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (514, N'BusinessesHouseSourceType-Workshop-Info', N'电梯', N'12', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (515, N'BusinessesHouseSourceType-Workshop-Info', N'电梯费', N'13', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (516, N'BusinessesHouseSourceType-Workshop-Info', N'管理费', N'14', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (517, N'BusinessesHouseSourceType-Workshop-Info', N'航吊高度', N'15', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (518, N'BusinessesHouseSourceType-Workshop-Info', N'距高速', N'16', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (519, N'BusinessesHouseSourceType-Workshop-Info', N'距机场', N'17', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (520, N'BusinessesHouseSourceType-Workshop-Info', N'距码头', N'18', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (521, N'BusinessesHouseSourceType-Workshop-Info', N'空余场地', N'19', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (522, N'BusinessesHouseSourceType-Workshop-Info', N'配电箱', N'20', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (523, N'BusinessesHouseSourceType-Workshop-Info', N'入口高度', N'21', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (524, N'BusinessesHouseSourceType-Workshop-Info', N'食堂', N'22', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (525, N'BusinessesHouseSourceType-Workshop-Info', N'水费', N'23', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (526, N'BusinessesHouseSourceType-Workshop-Info', N'宿舍层数', N'24', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (527, N'BusinessesHouseSourceType-Workshop-Info', N'宿舍栋数', N'25', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (528, N'BusinessesHouseSourceType-Workshop-Info', N'宿舍每层间数', N'26', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (529, N'BusinessesHouseSourceType-Workshop-Info', N'宿舍每层面积', N'27', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (530, N'BusinessesHouseSourceType-Workshop-Info', N'宿舍每栋间数', N'28', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (531, N'BusinessesHouseSourceType-Workshop-Info', N'宿舍每栋面积', N'29', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (532, N'BusinessesHouseSourceType-Workshop-Info', N'宿舍每间住人', N'30', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (533, N'BusinessesHouseSourceType-Workshop-Info', N'宿舍租金', N'31', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (534, N'BusinessesHouseSourceType-Workshop-Info', N'围墙', N'32', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (535, N'BusinessesHouseSourceType-Workshop-Info', N'卫生费', N'33', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (536, N'BusinessesHouseSourceType-Workshop-Info', N'消防', N'34', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (537, N'BusinessesHouseSourceType-Workshop-Info', N'新旧程度', N'35', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (538, N'BusinessesHouseSourceType-Workshop-Info', N'押付方式', N'36', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (539, N'BusinessesHouseSourceType-Workshop-Info', N'治安费', N'37', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (540, N'BusinessesHouseSourceType-Workshop-Info', N'柱网跨度', N'38', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (541, N'BusinessesHouseSourceType-Workshop-Info', N'装修期限', N'39', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (542, N'BusinessesHouseSourceType-Land-Plan', N' ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (543, N'BusinessesHouseSourceType-Land-Plan', N'工业用地', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (544, N'BusinessesHouseSourceType-Land-Plan', N'商业用地', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (545, N'BusinessesHouseSourceType-Land-Plan', N'商住用地', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (546, N'BusinessesHouseSourceType-Land-Plan', N'住宅用地', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (547, N'BusinessesHouseSourceType-Land-State', N' ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (548, N'BusinessesHouseSourceType-Land-State', N'净地', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (549, N'BusinessesHouseSourceType-Land-State', N'毛地', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (550, N'BusinessesHouseSourceType-Land-State', N'生地', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (551, N'BusinessesHouseSourceType-Land-State', N'熟地', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (552, N'BusinessesHouseSourceType-Land-Type', N' ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (553, N'BusinessesHouseSourceType-Land-Type', N'二通一平', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (554, N'BusinessesHouseSourceType-Land-Type', N'六通一平', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (555, N'BusinessesHouseSourceType-Land-Type', N'三通一平', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (556, N'BusinessesHouseSourceType-Land-Type', N'四通一平', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (557, N'BusinessesHouseSourceType-Land-Type', N'五通一平', N'06', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (558, N'BusinessesHouseSourceType-Land-Remarks', N'宗地号', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (559, N'BusinessesHouseSourceType-Land-Info', N'批地年代', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (560, N'BusinessesHouseSourceType-Land-Info', N'宗地号', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (561, N'BusinessesHouseSourceType-Place-Position', N' ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (562, N'BusinessesHouseSourceType-Place-Position', N'地下车位', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (563, N'BusinessesHouseSourceType-Place-Position', N'架空层车位', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (564, N'BusinessesHouseSourceType-Place-Position', N'立体车库', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (565, N'BusinessesHouseSourceType-Place-Position', N'室内车位', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (566, N'BusinessesHouseSourceType-Place-Type', N' ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (567, N'BusinessesHouseSourceType-Place-Type', N'大车位', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (568, N'BusinessesHouseSourceType-Place-Type', N'小车位', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (569, N'BusinessesHouseSourceType-Place-SweptVolume', N' ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (570, N'BusinessesHouseSourceType-Place-SweptVolume', N'1.0升', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (571, N'BusinessesHouseSourceType-Place-SweptVolume', N'2.0升', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (572, N'BusinessesHouseSourceType-Place-SweptVolume', N'3.0升', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (573, N'CustomerSourceType-Type', N'  ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (574, N'CustomerSourceType-Type', N'改善', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (575, N'CustomerSourceType-Type', N'个体户', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (576, N'CustomerSourceType-Type', N'给他人选', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (577, N'CustomerSourceType-Type', N'工程师', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (578, N'CustomerSourceType-Type', N'公务员', N'06', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (579, N'CustomerSourceType-Type', N'教师', N'07', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (580, N'CustomerSourceType-Type', N'律师', N'08', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (581, N'CustomerSourceType-Type', N'农民', N'09', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (582, N'CustomerSourceType-Type', N'其他', N'10', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (583, N'CustomerSourceType-Type', N'首次购房', N'11', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (584, N'CustomerSourceType-Type', N'投资', N'12', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (585, N'CustomerSourceType-Type', N'无业', N'13', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (586, N'CustomerSourceType-Type', N'医生', N'14', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (587, N'CustomerSourceType-Type', N'自由职业', N'15', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (588, N'CustomerSourceType-Grade', N'A', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (589, N'CustomerSourceType-Grade', N'B', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (590, N'CustomerSourceType-Grade', N'C', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (591, N'CustomerSourceType-State', N' ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (592, N'CustomerSourceType-State', N'借住', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (593, N'CustomerSourceType-State', N'临时', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (594, N'CustomerSourceType-State', N'其他', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (595, N'CustomerSourceType-State', N'自购', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (596, N'CustomerSourceType-State', N'自有', N'06', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (597, N'CustomerSourceType-State', N'租房', N'07', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (598, N'CustomerSourceType-Intention', N' ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (599, N'CustomerSourceType-Intention', N'改善', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (600, N'CustomerSourceType-Intention', N'急迫', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (601, N'CustomerSourceType-Intention', N'随意', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (602, N'CustomerSourceType-Intention', N'投资', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (603, N'CustomerSourceType-Term', N' ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (604, N'CustomerSourceType-Term', N'1月内', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (605, N'CustomerSourceType-Term', N'1周内', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (606, N'CustomerSourceType-Term', N'2天内', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (607, N'CustomerSourceType-Term', N'2月内', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (608, N'CustomerSourceType-Term', N'2周内', N'06', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (609, N'CustomerSourceType-Term', N'3天内', N'07', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (610, N'CustomerSourceType-Term', N'3月内', N'08', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (611, N'CustomerSourceType-Term', N'3周内', N'09', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (612, N'CustomerSourceType-Term', N'5天内', N'10', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (613, N'CustomerSourceType-Payment', N' ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (614, N'CustomerSourceType-Payment', N'按揭方式', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (615, N'CustomerSourceType-Payment', N'半年租', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (616, N'CustomerSourceType-Payment', N'垫资解按', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (617, N'CustomerSourceType-Payment', N'季租', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (618, N'CustomerSourceType-Payment', N'年租', N'06', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (619, N'CustomerSourceType-Payment', N'一次付清', N'07', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (620, N'CustomerSourceType-Payment', N'月租', N'08', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (621, N'CustomerSourceType-PayCommission', N' ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (622, N'CustomerSourceType-PayCommission', N'八折佣', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (623, N'CustomerSourceType-PayCommission', N'不给佣', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (624, N'CustomerSourceType-PayCommission', N'垫资解按', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (625, N'CustomerSourceType-PayCommission', N'给全佣', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (626, N'CustomerSourceType-PayCommission', N'九折佣', N'06', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (627, N'CustomerSourceType-PayCommission', N'七折佣', N'07', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (628, N'CustomerSourceType-PayCommission', N'商议', N'08', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (629, N'CustomerSourceType-PayCommission', N'五折佣', N'09', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (630, N'CustomerSourceType-Source', N'  ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (631, N'CustomerSourceType-Source', N'58同城', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (632, N'CustomerSourceType-Source', N'安居客', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (633, N'CustomerSourceType-Source', N'蹲守', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (634, N'CustomerSourceType-Source', N'赶集', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (635, N'CustomerSourceType-Source', N'来电', N'06', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (636, N'CustomerSourceType-Source', N'来访', N'07', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (637, N'CustomerSourceType-Source', N'其他网站', N'08', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (638, N'CustomerSourceType-Source', N'扫街', N'09', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (639, N'CustomerSourceType-Source', N'搜房', N'10', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (640, N'CustomerSourceType-Source', N'贴条', N'11', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (641, N'CustomerSourceType-Source', N'驻守', N'12', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (642, N'CustomerSourceType-Source', N'转介', N'13', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (643, N'CustomerSourceType-EntrustMode', N' ', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (644, N'CustomerSourceType-EntrustMode', N'A-独家', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (645, N'CustomerSourceType-EntrustMode', N'B-签约', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (646, N'CustomerSourceType-EntrustMode', N'C-未签', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (647, N'CustomerSourceType-Remarks', N'给老人住', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (648, N'CustomerSourceType-Remarks', N'给小孩住', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (649, N'CustomerSourceType-Remarks', N'首次购买', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (650, N'CustomerSourceType-Remarks', N'投资炒房', N'04', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (651, N'CustomerSourceType-Remarks', N'投资租赁', N'05', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (652, N'CustomerSourceType-Remarks', N'自住改善', N'06', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (653, N'CustomerSourceType-FollowCommonWordType', N'价格谈判', N'01', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (654, N'CustomerSourceType-FollowCommonWordType', N'看房勘察', N'02', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+INSERT [dbo].[UserDictionaryModels] ([Id], [Name], [Value], [ItemNo], [Explain], [IsLocked], [IsDeleted], [CreatedTime]) VALUES (655, N'CustomerSourceType-FollowCommonWordType', N'客户咨询', N'03', N'', 0, 0, CAST(0x0000A77800EBAD16 AS DateTime))
+;
+SET IDENTITY_INSERT [dbo].[UserDictionaryModels] OFF
+;
+

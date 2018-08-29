@@ -1,0 +1,121 @@
+﻿
+@{
+    Layout = null;
+    var error = ViewData["error"] == null ? "" : ViewData["error"].ToString();
+    var url = ViewData["url"] == null ? "" : ViewData["url"].ToString();
+}
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>活码中心</title>
+    <style>
+        .head {
+            height: 3rem;
+            border-bottom: .05rem solid #dddddd;
+            display: flex;
+            overflow: hidden;
+            width: 100%;
+            line-height: 3rem;
+            background-color: white;
+        }
+
+            .head div {
+                float: left;
+            }
+
+            .head .back {
+                font-size: 3rem !important;
+                width: 2rem;
+                padding-left: 1rem;
+                height: 100%;
+                color: #ccc;
+            }
+
+            .head .types {
+                width: 100%;
+                font-size: 1.2rem !important;
+                text-align: center;
+                margin-left: -2rem;
+                height: 100%;
+            }
+
+
+        .content {
+            width: 100%;
+            height: auto;
+        }
+
+        label {
+            font-size: 1rem;
+            width: 6rem;
+            display: inline-block;
+            text-align: right;
+            line-height: 2.5rem;
+            height: 2.5rem;
+            margin-right: .5rem;
+        }
+
+
+        input, select {
+            font-size: 1rem;
+        }
+
+        .radio input {
+            -webkit-appearance: radio !important;
+        }
+
+        .consumption {
+            margin: 1rem 1rem;
+            font-size: 1rem;
+            overflow: hidden;
+        }
+
+        .agreement {
+        }
+
+            .agreement .text {
+                font-size: .8rem;
+            }
+
+            .agreement .check {
+                height: 2.5rem;
+                line-height: 2.5rem;
+            }
+
+        .check {
+            font-size: .8rem;
+            font-weight: 600;
+        }
+
+        textarea {
+            height: 6rem !important;
+        }
+    </style>
+</head>
+<body class="gray-bg">
+    <div class="content">
+        <div class="consumption">
+            <div class="agreement">
+                <div class="check">
+                    <span>活码中心提醒您：</span>
+                </div>
+                <div class="text">
+                    您扫描的二维码结果：  @error
+                </div>
+            </div>
+        </div>
+    </div>
+    <input id="handle_status" value="@url" hidden="hidden">
+    <!-- 全局js -->
+    <script type="text/javascript" src="~/Scripts/jquery.min.js?v=2.1.4"></script>
+    <script>
+        if ($("#handle_status").val() != "") {
+            window.location.href = $("#handle_status").val();
+        }
+    </script>
+</body>
+</html>

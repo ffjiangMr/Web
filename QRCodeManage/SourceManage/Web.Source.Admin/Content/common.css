@@ -1,0 +1,68 @@
+﻿.ibox {
+    margin-bottom: 0px;
+}
+
+.ibox-content {
+    padding: 15px 20px 0px 20px;
+}
+/*树显示滚动条*/
+.treeDiv {
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+
+
+.control-label {
+    line-height: 32px;
+    text-align: right;
+}
+
+.col-xs-9 {
+    padding-left: 0px;
+}
+
+.col-sm-7 {
+    padding-left: 0px;
+}
+
+/*.has-error {
+    margin-bottom: 2px !important;
+}*/
+
+.form-group {
+    margin-bottom: 24px;
+    height: 39px;
+}
+
+input.help-block {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+span.help-block {
+    margin-top: 2px;
+    margin-bottom: 4px;
+}
+
+    span.help-block:empty {
+        display: none;
+    }
+
+.form-control.help-block.m-b-none {
+    margin-top: 0px;
+}
+
+
+
+.form-horizontal.m-t {
+    margin-top: 0px;
+}
+
+.wrapper.wrapper-content.animated.fadeInRight {
+    padding-top: 25px;
+}
+
+.form-group.Submit {
+    margin-bottom: 0px;
+} 

@@ -1,0 +1,220 @@
+﻿@using Source.Model.DbModels.QRCode;
+@{
+    Layout = null;
+    var entity = ViewData["entity"] as UserAllocation;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/Css/bootstrap.min.css?v=3.3.6" rel="stylesheet">
+    <link href="~/Content/Css/font-awesome.css?v=4.4.0" rel="stylesheet">
+    <link href="~/Content/Css/plugins/bootstrap-table/bootstrap-table.min.css" rel="stylesheet">
+    <link href="~/Content/Css/animate.css" rel="stylesheet">
+    <link href="~/Content/Css/style.css?v=4.1.0" rel="stylesheet">
+    <link href="~/Content/common.css" rel="stylesheet">
+    <title>edit</title>
+    <style>
+    </style>
+</head>
+<body>
+    <div class="wrapper wrapper-content animated fadeInRight">
+        <div class="col-xs-11">
+            <form class="form-horizontal m-t" id="mainForm">
+                <input type="hidden" id="Id" name="Id" value="@entity.Id" />
+
+                <div class="form-group">
+                    <label class="col-xs-3 control-label">开始码：</label>
+                    <div class="col-xs-9">
+                        <input id="StartNumber" name="StartNumber" type="text" class="form-control" value="@entity.StartNumber" onblur="Codesum()">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-xs-3 control-label">码数量：</label>
+                    <div class="col-xs-9">
+                        <input id="NumCount" name="NumCount" type="text" class="form-control" value="@entity.NumCount" onblur="Codesum()">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-xs-3 control-label">结束码：</label>
+                    <div class="col-xs-9">
+                        <input id="EndNumber" name="EndNumber" type="text" class="form-control" value="@entity.EndNumber" readonly="readonly">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-xs-12">
+                        <div class="pull-right">
+                            <button id="submit" class="btn btn-primary pull-center" type="submit">
+                                <i class="fa fa-check"></i>&nbsp;提&nbsp;交
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </form>
+        </div>
+    </div>
+    <!-- 全局js -->
+    <script type="text/javascript" src="~/Scripts/jquery.min.js?v=2.1.4"></script>
+    <script type="text/javascript" src="~/Scripts/bootstrap.min.js?v=3.3.6"></script>
+
+    @*<script src="~/Scripts/JsonExportExcel.min.js"></script>*@
+
+    <!-- jQuery Validation plugin javascript-->
+    <script type="text/javascript" src="~/Scripts/plugins/validate/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/plugins/validate/messages_zh.min.js"></script>
+    @*<script type="text/javascript" src="~/Scripts/Extensions/ExtValidator.js"></script>*@
+
+    <!-- layer javascript -->
+    <script type="text/javascript" src="~/Scripts/plugins/layer/layer.min.js"></script>
+    <script>
+
+
+
+        $(function () {
+            // validate signup form on keyup and submit
+            var icon = "<i class='fa fa-times-circle'></i> ";
+            var validator = $("#mainForm").validate({
+                rules: {
+                    StartNumber: {
+                        required: true
+                    },
+                    NumCount: {
+                        required: true
+                    },
+                    EndNumber: {
+                        required: true
+                    }
+                },
+                messages: {
+                    StartNumber: {
+                        required: icon + "请输入开始码",
+                    },
+                    NumCount: {
+                        required: icon + "请输入码数量",
+                    },
+                    EndNumber: {
+                        required: icon + "请输入结束码",
+                    }
+                },
+                submitHandler: function (form) {
+                    //alert(JSON.stringify($('#mainForm').serialize()));
+                    //return;
+                    //进行ajax传值
+                    $.ajax({
+                        url: "/UserAllocation/ExcelAsync",
+                        type: "post",
+                        dataType: "json",
+                        data: GetJsonData(),
+                        success: function (data) {
+                            //Info,Success,Warning,Error
+                            var type = data.type;
+                            if (type == 1) {
+                                layer.msg(data.content, { icon: 6, time: 2000 },
+                                    function () {
+                                        JSONToExcelConvertor(data.data);
+                                    });
+
+                            } else {
+                                layer.msg(data.content, { icon: 5, time: 2000 });
+                            }
+                        }
+                    });
+                }
+            });
+        });
+
+        function GetJsonData() {
+            var json = {
+                "StartNumber": $("#StartNumber").val(),
+                "EndNumber": $("#EndNumber").val(),
+                "NumCount": $("#NumCount").val()
+            };
+            return json;
+        }
+
+        function Codesum() {
+
+            var count = $("#NumCount").val();
+            var start = $("#StartNumber").val();
+
+            var endcode = parseInt(start) + parseInt(count) - 1;
+            $("#EndNumber").val(endcode);
+        }
+
+
+        function JSONToExcelConvertor(arrData ) {
+
+            var FileName = "导出码文件-" + GetRandomNum(10000, 99999);
+            var excel = '<table>';
+
+            //设置表头
+            var row = "<tr>";
+            row += "<td>编号</td>";
+            row += "<td>内容</td>";
+            excel += row + "</tr>";
+            
+            //设置数据
+            for (var i = 0; i < arrData.length; i++) {
+                var row = "<tr>";
+                row += '<td>' + arrData[i].编号 + '</td>';
+                row += '<td>' + arrData[i].内容 + '</td>';
+                excel += row + "</tr>";
+            }
+
+            excel += "</table>";
+
+            var excelFile = "<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:x='urn:schemas-microsoft-com:office:excel' xmlns='http://www.w3.org/TR/REC-html40'>";
+            excelFile += '<meta http-equiv="content-type" content="application/vnd.ms-excel; charset=UTF-8">';
+            excelFile += '<meta http-equiv="content-type" content="application/vnd.ms-excel';
+            excelFile += '; charset=UTF-8">';
+            excelFile += "<head>";
+            excelFile += "<!--[if gte mso 9]>";
+            excelFile += "<xml>";
+            excelFile += "<x:ExcelWorkbook>";
+            excelFile += "<x:ExcelWorksheets>";
+            excelFile += "<x:ExcelWorksheet>";
+            excelFile += "<x:Name>";
+            excelFile += "{worksheet}";
+            excelFile += "</x:Name>";
+            excelFile += "<x:WorksheetOptions>";
+            excelFile += "<x:DisplayGridlines/>";
+            excelFile += "</x:WorksheetOptions>";
+            excelFile += "</x:ExcelWorksheet>";
+            excelFile += "</x:ExcelWorksheets>";
+            excelFile += "</x:ExcelWorkbook>";
+            excelFile += "</xml>";
+            excelFile += "<![endif]-->";
+            excelFile += "</head>";
+            excelFile += "<body>";
+            excelFile += excel;
+            excelFile += "</body>";
+            excelFile += "</html>";
+
+
+            var uri = 'data:application/vnd.ms-excel;charset=utf-8,' + encodeURIComponent(excelFile);
+
+            var link = document.createElement("a");
+            link.href = uri;
+
+            link.style = "visibility:hidden";
+            link.download = FileName + ".xls";
+
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+        //生成随机数
+        function GetRandomNum(Min, Max) {
+            var Range = Max - Min;
+            var Rand = Math.random();
+            return (Min + Math.round(Rand * Range));
+        }   
+
+    </script>
+</body>
+</html>

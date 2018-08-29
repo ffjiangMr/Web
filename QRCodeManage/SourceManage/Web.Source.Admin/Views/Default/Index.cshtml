@@ -1,0 +1,267 @@
+﻿@using Source.Admin.Web.Models.ViewModel
+@{
+    Layout = null;
+    LoginModel Login = ViewBag.LoginModel as LoginModel;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit">
+    <title>管理系统 - 主页</title>
+    <meta name="keywords" content="管理系统">
+    <meta name="description" content="管理系统">
+    <!--[if lt IE 9]>
+    <meta http-equiv="refresh" content="0;ie.html" />
+    <![endif]-->
+    <link rel="shortcut icon" href="~/favicon.ico">
+    <link href="~/Content/Css/bootstrap.min.css?v=3.3.6" rel="stylesheet">
+    <link href="~/Content/Css/font-awesome.min.css?v=4.4.0" rel="stylesheet">
+    <link href="~/Content/Style/animate.css" rel="stylesheet">
+    <link href="~/Content/Style/style.css?v=4.1.0" rel="stylesheet">
+</head>
+<body id="bodycontent" class="fixed-sidebar full-height-layout gray-bg" style="overflow:hidden">
+    <div id="wrapper">
+        <!--左侧导航开始-->
+        <nav class="navbar-default navbar-static-side" role="navigation">
+            <div class="nav-close">
+                <i class="fa fa-times-circle"></i>
+            </div>
+            <div class="sidebar-collapse">
+                <!--左上-->
+                <ul class="nav" id="side-menu">
+                    <li class="nav-header">
+                        <div class="dropdown profile-element" style="align-content:center">
+                            <span><img id="user_avatar" alt="image" class="img-circle" style="width:100%;" src="~/Content/Images/log.png" /></span>
+
+                            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                                <span class="clear">
+                                    <span class="text-muted text-xs block">欢迎：@Login.Name<b class="caret"></b></span>
+                                </span>
+                            </a>
+
+                            <ul id="profile" class="dropdown-menu animated fadeInRight m-t-xs">
+                                @*<li>
+                        <a class="J_menuItem" href="/Account/">修改密码</a>
+                    </li>
+                    <li>
+                        <a class="J_menuItem" href="/Account/">个人资料</a>
+                    </li>
+                    <li class="divider"></li>*@
+                                <li>
+                                    <a id="logout1" href="#">安全退出</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="logo-element">
+
+                        </div>
+                    </li>
+                    <!--导航开始-->
+                    <li>
+                        <a class="J_menuItem" href="/Dictionaries/" data-index="86">
+                            <i class="fa fa-cog"></i>
+                            <span class="nav-label">基础参数</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="J_menuItem" href="/SysAccountInfo/" data-index="86">
+                            <i class="fa fa-user"></i>
+                            <span class="nav-label">管理账户</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="J_menuItem" href="/UserAccount/" data-index="86">
+                            <i class="fa fa-university"></i>
+                            <span class="nav-label">用户管理</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="J_menuItem" href="/UserAllocation/" data-index="86">
+                            <i class="fa fa-print"></i>
+                            <span class="nav-label">活码发放</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="J_menuItem" href="/UserNumBox/" data-index="86">
+                            <i class="fa fa-qrcode"></i>
+                            <span class="nav-label">活码使用</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="J_menuItem" href="/APILogInfo/" data-index="86">
+                            <i class="fa fa-cog"></i>
+                            <span class="nav-label">接口日志</span>
+                        </a>
+                    </li>
+                    @*<li>
+            <a href="#">
+                <i class="glyphicon glyphicon-calendar"></i>
+                <span class="nav-label">系统管理</span>
+                <span class="fa arrow"></span>
+            </a>
+            <ul class="nav nav-second-level">
+                <li>
+                    <a class="J_menuItem" href="/Dictionaries/">基础参数</a>
+                </li>
+            </ul>
+            <ul class="nav nav-second-level">
+                <li>
+                    <a class="J_menuItem" href="/SysAccountInfo/">账户管理</a>
+                </li>
+            </ul>
+
+        </li>*@
+                    @*<li>
+            <a href="#">
+                <i class="glyphicon glyphicon-bell"></i>
+                <span class="nav-label">活码管理</span>
+                <span class="fa arrow"></span>
+            </a>
+            <ul class="nav nav-second-level">
+                <li>
+                    <a class="J_menuItem" href="/UserAccount/">用户管理</a>
+                </li>
+            </ul>
+            <ul class="nav nav-second-level">
+                <li>
+                    <a class="J_menuItem" href="/UserAllocation/">活码发放</a>
+                </li>
+            </ul>
+
+            <ul class="nav nav-second-level">
+                <li>
+                    <a class="J_menuItem" href="/UserNumBox/">活码使用</a>
+                </li>
+            </ul>
+
+        </li>*@
+
+                    <!--导航结束-->
+
+                </ul>
+            </div>
+        </nav>
+        <!--左侧导航结束-->
+        <!--右侧部分开始-->
+        <div id="page-wrapper" class="gray-bg dashbard-1">
+
+            <!--消息弹出DIV-->
+            <div class="row border-bottom">
+                <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+                    <div class="navbar-header">
+                        @*<a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>*@
+                        <h2 style="margin-top: 10px;font-size: 28px;">管理系统</h2>
+                    </div>
+                    <ul class="nav navbar-top-links navbar-right">
+
+                        @*<li class="dropdown">
+                                <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
+                                    <i class="fa fa-bell"></i> <span class="label label-primary">0</span>
+                                </a>
+                                <ul class="dropdown-menu dropdown-alerts">
+                                    <li class="divider"></li>
+                                    <li>
+                                        <a class="J_menuItem" href="/Account/">
+                                            <div>
+                                                <i class="fa fa-bell"></i>我的通知信息
+                                                <span class="pull-right text-muted small">12分钟钱</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="divider"></li>
+                                    <li>
+                                        <div class="text-center link-block">
+                                            <a class="J_menuItem" href="/Account/">
+                                                <strong>我的处理页面 </strong>
+                                                <i class="fa fa-angle-right"></i>
+                                            </a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>*@
+                        <li class="hidden-xs">
+                            <a id="adminfullscreen" data-index="0"><i class="fa fa-arrows-alt"></i> 全屏</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+
+            <!--横向打开导航-->
+            <div class="row content-tabs">
+                <button class="roll-nav roll-left J_tabLeft">
+                    <i class="fa fa-backward"></i>
+                </button>
+
+                <nav class="page-tabs J_menuTabs">
+                    <div class="page-tabs-content">
+                        <a href="javascript:;" class="active J_menuTab" data-id="index_v1.html">首页</a>
+                    </div>
+                </nav>
+
+                <button class="roll-nav roll-right J_tabRight">
+                    <i class="fa fa-forward"></i>
+                </button>
+                <div class="btn-group roll-nav roll-right">
+                    <button class="dropdown J_tabClose" data-toggle="dropdown">
+                        关闭操作<span class="caret"></span>
+                    </button>
+                    <ul role="menu" class="dropdown-menu dropdown-menu-right">
+                        @*<li class="J_tabShowActive">
+                                <a>定位当前选项卡</a>
+                            </li>*@
+                        <li class="divider"></li>
+                        <li class="J_tabCloseAll">
+                            <a>关闭全部选项卡</a>
+                        </li>
+                        <li class="J_tabCloseOther">
+                            <a>关闭其他选项卡</a>
+                        </li>
+                    </ul>
+                </div>
+                <a id="logout2" class="roll-nav roll-right J_tabExit logout"><i class="fa fa fa-sign-out"></i> 退出</a>
+            </div>
+
+            <!--加载内容页面DIV-->
+            <div class="row J_mainContent" id="content-main">
+
+                <iframe class="J_iframe" name="iframe0" width="100%" height="100%" src="" frameborder="0" data-id="UsersIndex" seamless></iframe>
+
+            </div>
+
+            <!--底部页面DIV-->
+            <div class="footer">
+                <div class="pull-right">
+                    &copy; 2017-2018 <a href="http://www.baidu.com/" target="_blank">管理系统</a>
+                </div>
+            </div>
+        </div>
+        <!--右侧部分结束-->
+
+    </div>
+    <!-- 全局js -->
+    <script type="text/javascript" src="~/Scripts/jquery.min.js?v=2.1.4"></script>
+    <script type="text/javascript" src="~/Scripts/bootstrap.min.js?v=3.3.6"></script>
+    <script type="text/javascript" src="~/Scripts/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script type="text/javascript" src="~/Scripts/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/plugins/layer/layer.min.js"></script>
+
+
+    <!-- 自定义js -->
+    <script type="text/javascript" src="~/Scripts/hplus.js?v=4.1.0"></script>
+    <script type="text/javascript" src="~/Scripts/contabs.js?a=@(DateTime.Now.Millisecond)"></script>
+    <!-- 第三方插件 -->
+    <script type="text/javascript" src="~/Scripts/plugins/pace/pace.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.fullscreen.js"></script>
+    <script src="~/ScriptsControllers/Base/Default.js"></script>
+
+
+</body>
+</html>
